@@ -93,3 +93,24 @@ footer{
   font-size: 13px;
   text-align: center;
 }
+
+.imgcenter{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.5);
+}
+
+.imgcenter_resize{
+  max-width: 266px;
+  max-height: 251px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.5);
+
+}
