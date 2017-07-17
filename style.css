@@ -6,31 +6,75 @@ html {
 
 .navigation {
   text-decoration: none;
-  color:white;
+  color:black;
+}
+
+#profile-pic{
+  border-radius: 50%;
+  border-width: 1px;
+  border-collapse: collapse;
+  border-color: black;
+  margin: auto;
 }
 
 nav{
-  width: span;
-  display:inline-block;
-  display: fixed;
-  top:0;
+  width: auto;
+  min-width: 822px;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   text-align: center;
   box-shadow:0 15px 15px -15px 0 grey;
   font-size: 13px;
   line-height: 40px;
-  background-color: black;
+  background-color: white;
 }
 
 nav>a{
-    position: relative;
-    display: inline-block;
     font-size: 13px;
-    line-height: 40px;
+    /*line-height: 40px;*/
     padding: 0 2em;
     -webkit-transition: all .3s ease;
 }
 
 nav>a:hover{
-    background: rgba(255,255,255,.9);
-    color: black;
+    display: inline-block;
+    background: #006633;
+    opacity: 0.9;
+    color: white;
+    /*height: 40px;*/
+}
+
+body{
+  display: block;
+  position: relative;
+  margin-top: 60px;
+}
+
+.profile{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#name{
+  font-size: 2em;
+}
+
+.frontpage{
+  padding: 20px;
+  background-color: white;
+  opacity: 90%;
+  text-align: justify;
+}
+
+.center{
+  text-align: center;
+}
+
+footer{
+  font-size: 13px;
+  text-align: center;
 }
