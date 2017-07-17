@@ -6,7 +6,15 @@ html {
 
 .navigation {
   text-decoration: none;
+  display: inline-block;
   color:black;
+}
+
+.home{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: #006633;
 }
 
 #profile-pic{
@@ -42,7 +50,7 @@ nav>a{
 nav>a:hover{
     display: inline-block;
     background: #006633;
-    opacity: 0.9;
+    opacity: 0.75;
     color: white;
     /*height: 40px;*/
 }
@@ -64,6 +72,13 @@ body{
 }
 
 .frontpage{
+  padding: 20px;
+  background-color: white;
+  opacity: 90%;
+  text-align: justify;
+}
+
+.page{
   padding: 20px;
   background-color: white;
   opacity: 90%;
